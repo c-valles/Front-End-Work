@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Styles/tables.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <ul>
+      <li><a class="active" href="../index.html">Home</a></li>
+      <li><a href="./register.html">Register</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li style="float: right"><a href="./about.html">About</a></li>
+      <li style="float: right">
+        <a href="./login.html">
+          <img
+            src="../Images/icons8-login-50.png"
+            alt="Login Icon"
+            class="login-user"
+          />
+          Login
+        </a>
+      </li>
+    </ul>
+
+    <h1>Register</h1>
+
+    <label for="firstsname">First Name:</label>
+    <input type="text" placeholder="First Name" id="firstname" name="First Name" size="20" /><br/>
+
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="Last Name" size="20"/><br/>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="Email" size="20"/><br/>
+
+    <label for="password">Password: </label>
+    <input type="password" name="password" id="password"><br>
+    <label for="password">Confirm :Password</label>
+    <input type="password" name="password" id="password"><br>
+
+    <legend>Gender:</legend>
+    <label for="female">Female</label>
+    <input type="radio" name="radio" id="female">
+    <label for="male">Male</label>
+    <input type="radio" name="radio" id="male"><br/>
+
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="start" name="trip-start" value="yyyy/mm/dd" min="1900-01-01" max="2004-12-31" /></br>
+
+    <legend>Interests:</legend>
+            <label for="sports">Sports:</label><input type="checkbox" name="sports" id="sports">
+            <label for="videogames">Video Games:</label><input type="checkbox" name="videogames" id="videogames">
+            <label for="music">Music:</label><input type="checkbox" name="music" id="music"><br/>
+    
+            <button class="register" type="button">Register</button>
+
+  </body>
+</html>

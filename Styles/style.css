@@ -1,0 +1,27 @@
+body {
+    background-color: darkslategray;
+    color: black;
+    font-size: 1.1em;
+}
+h1 {
+    color: coral;
+}
+#intro {
+    font-size: 1.3em;
+}
+.colorful {
+    color: orange;
+}
+
+section { border: 5 px solid black; padding: 10px;
+background-color:#dbfffe;}
+
+.my-items {
+    background-color: aqua;
+    padding: 15px;
+}
+
+#bio {
+    background-color: palevioletred;
+    padding: 20px;
+}
